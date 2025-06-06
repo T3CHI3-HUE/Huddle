@@ -74,6 +74,8 @@ h2{
     position: relative;
     padding-top: 70px;    /* Add space at the top */
     padding-bottom: 70px; /* Add space at the bottom */
+    margin: 0 auto;           /* Center horizontally */
+    width: fit-content;       /* Shrink to fit content */
 }
 .box text{
     font-size: 18px;
@@ -261,6 +263,10 @@ h2{
         padding-top: 6px;
         padding-bottom: 6px;
         font-size: 12px;
+        margin: 0 auto;       /* Center horizontally on mobile */
+        width: 100%;          /* Take full width on small screens */
+        padding-top: 16px;    /* Less space above */
+        padding-bottom: 16px; /* Less space below */
     }
     .overlap-box {
         width: 96vw;
