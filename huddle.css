@@ -234,11 +234,15 @@ h2{
         font-size: 1em;
     }
     .box {
-        width: 97vw;
+        width: 90vw;
+        margin: 20px auto 0 auto;   /* Center horizontally and add space below header */
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 4px;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
         font-size: 12px;
+        box-sizing: border-box;
     }
     .box img {
         width: 70vw;      /* Reduce width */
