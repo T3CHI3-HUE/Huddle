@@ -204,6 +204,11 @@ h2{
 
 
 @media (max-width: 768px) {
+    body {
+        padding-left: 12px;
+        padding-right: 12px;
+        box-sizing: border-box;
+    }
     .header {
         height: 220px;
         padding: 10px;
@@ -234,19 +239,19 @@ h2{
         font-size: 1em;
     }
     .box {
-        width: 90vw;
-        margin: 20px auto 0 auto;   /* Center horizontally and add space below header */
+        width: 80vw;                /* Reduce width further */
+        margin: 10px auto 0 auto;   /* Directly below header */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 8px;
-        font-size: 12px;
+        padding: 6px;
+        font-size: 11px;
         box-sizing: border-box;
     }
     .box img {
-        width: 70vw;      /* Reduce width */
-        height: 40vw;     /* Increase height */
+        width: 60vw;      /* Reduce width more */
+        height: 45vw;     /* Increase height for better visibility */
         margin-bottom: 4px;
         border-radius: 5px;
         object-fit: contain; /* Show full image without cropping */
